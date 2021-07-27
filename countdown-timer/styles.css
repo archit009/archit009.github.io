@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: sans-serif;
+    background-color: #8EC5FC; 
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+h2{
+    font-size: 4.5rem;
+    font-weight: bold;
+    padding: 1rem;
+
+
+}
+
+.coming-soon{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ctd-img{
+    margin-top: 2rem;
+    height: 50vh;
+    
+}
+
+.day,.hour,.minute,.second,.year{
+    font-size: 3rem;
+}
